@@ -26,3 +26,4 @@ def start_server():
     api.add_namespace(challenge, path="/")
     app.register_blueprint(blueprint)
     return app
+
